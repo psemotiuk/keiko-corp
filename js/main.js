@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	alert('hello')
+
 	//Navigation menu scrollTo
 	$('header nav ul li a').click(function(event){
 		event.preventDefault();
