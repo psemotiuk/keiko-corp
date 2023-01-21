@@ -286,7 +286,7 @@
 	<script type="text/javascript">
 		const loadStyleSheet = src => {
 			if (document.createStylesheet) {
-				// document.createStylesheet(src)
+				document.createStylesheet(src)
 			} else {
 				const stylesheet = document.createElement('link');
 				stylesheet.href = src;
@@ -297,7 +297,7 @@
 		}
 
 		window.onload = () => {
-			// loadStyleSheet('css/bootstrap.css')
+			loadStyleSheet('css/bootstrap.css')
 		}
 	</script>
 	<script type="text/javascript" src="js/jquery.js"></script>
